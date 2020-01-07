@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test renders correctly 1`] = `
+<div
+  className="game"
+>
+  <div
+    className="game-board"
+  >
+    <div>
+      <div
+        className="board-row"
+      >
+        <button
+          className="square"
+          onClick={[Function]}
+          type="submit"
+        />
+        <button
+          className="square"
+          onClick={[Function]}
+          type="submit"
+        />
+        <button
+          className="square"
+          onClick={[Function]}
+          type="submit"
+        />
+      </div>
+      <div
+        className="board-row"
+      >
+        <button
+          className="square"
+          onClick={[Function]}
+          type="submit"
+        />
+        <button
+          className="square"
+          onClick={[Function]}
+          type="submit"
+        />
+        <button
+          className="square"
+          onClick={[Function]}
+          type="submit"
+        />
+      </div>
+      <div
+        className="board-row"
+      >
+        <button
+          className="square"
+          onClick={[Function]}
+          type="submit"
+        />
+        <button
+          className="square"
+          onClick={[Function]}
+          type="submit"
+        />
+        <button
+          className="square"
+          onClick={[Function]}
+          type="submit"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="game-info"
+  >
+    <div>
+      Next player: X
+    </div>
+    <ol>
+      <li>
+        <button
+          onClick={[Function]}
+          type="submit"
+        >
+          Go to game start
+        </button>
+      </li>
+    </ol>
+  </div>
+</div>
+`;

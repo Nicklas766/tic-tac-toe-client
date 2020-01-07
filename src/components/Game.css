@@ -1,0 +1,28 @@
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+}
+
+.game-board, .game-info {
+    width: 100%;
+}
+
+.game-info div {
+    text-align: center;
+    font-size: 2em;
+}
+
+.board-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.square {
+    width: 33.33%;
+    height: 100px;
+    background: white;
+    font-size: 2em;
+}
