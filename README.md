@@ -1,4 +1,5 @@
 # TicTacToe
+[![Maintainability](https://api.codeclimate.com/v1/badges/069a427ccb634c430a70/maintainability)](https://codeclimate.com/github/Nicklas766/tic-tac-toe-client/maintainability)
 
 1. NPM
 2. Note to corrector
