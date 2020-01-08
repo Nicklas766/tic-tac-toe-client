@@ -62,3 +62,12 @@ They are not installed as devDependencies due to the following eslint errors:
 'prop-types' should be listed in the project's dependencies, not devDependencies  import/no-extraneous-dependencies
 'enzyme' should be listed in the project's dependencies, not devDependencies import/no-extraneous-dependencies
 ```
+
+### IE 11 in dev mode
+
+It works in production.
+
+But during dev it does not without adding `slashes: true` in `\node_modules\react-dev-utils\webpackHotDevClient.js`:
+
+https://github.com/facebook/create-react-app/pull/8116
+

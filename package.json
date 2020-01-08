@@ -10,6 +10,7 @@
     "enzyme-adapter-react-16": "^1.15.2",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
+    "react-app-polyfill": "^1.0.5",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
     "tic-tac-toe-stateless-engine": "^1.0.0"
@@ -32,6 +33,7 @@
       "not op_mini all"
     ],
     "development": [
+      "ie 11",
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
