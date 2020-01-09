@@ -31,7 +31,7 @@ const Game = () => {
   };
 
   const renderSquare = (index) => (
-    <Square onClick={() => handleSquareClick(index)} value={squares[index]} />
+    <Square key={index} onClick={() => handleSquareClick(index)} value={squares[index]} />
   );
 
   const moves = history.map((square, index) => {

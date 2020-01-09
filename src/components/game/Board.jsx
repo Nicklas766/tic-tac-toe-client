@@ -4,21 +4,15 @@ import PropTypes from 'prop-types';
 const Board = ({ renderSquare }) => (
   <div>
     <div className="board-row">
-      {renderSquare(0)}
-      {renderSquare(1)}
-      {renderSquare(2)}
+      {[0, 1, 2].map((index) => renderSquare(index))}
     </div>
 
     <div className="board-row">
-      {renderSquare(3)}
-      {renderSquare(4)}
-      {renderSquare(5)}
+      {[3, 4, 5].map((index) => renderSquare(index))}
     </div>
 
     <div className="board-row">
-      {renderSquare(6)}
-      {renderSquare(7)}
-      {renderSquare(8)}
+      {[6, 7, 8].map((index) => renderSquare(index))}
     </div>
   </div>
 );
