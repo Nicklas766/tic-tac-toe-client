@@ -34,15 +34,13 @@ const Game = () => {
     <Square key={index} onClick={() => handleSquareClick(index)} value={squares[index]} />
   );
 
-  const moves = history.map((square, index) => {
-    const btnText = index ? `Go to move ${index}` : 'Go to game start';
-
-    return (
-      <li key={square}>
-        <button type="submit" onClick={() => setCurrIndex(index)}>{btnText}</button>
-      </li>
-    );
-  });
+  const prevMovesButtons = history.map((square, index) => (
+    <li key={square}>
+      <button type="submit" onClick={() => setCurrIndex(index)}>
+        {index ? `Go to move ${index}` : 'Go to game start'}
+      </button>
+    </li>
+  ));
 
 
   return (
@@ -53,7 +51,7 @@ const Game = () => {
 
       <div className="game-info">
         <div>{getGameStatus(squares)}</div>
-        <ol>{moves}</ol>
+        <ol>{prevMovesButtons}</ol>
       </div>
     </div>
   );

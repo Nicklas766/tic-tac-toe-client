@@ -1,5 +1,6 @@
 # TicTacToe
 [![Maintainability](https://api.codeclimate.com/v1/badges/069a427ccb634c430a70/maintainability)](https://codeclimate.com/github/Nicklas766/tic-tac-toe-client/maintainability)
+[![Build Status](https://travis-ci.org/Nicklas766/tic-tac-toe-client.svg?branch=master)](https://travis-ci.org/Nicklas766/tic-tac-toe-client)
 
 1. NPM
 2. Note to corrector
@@ -39,7 +40,7 @@ I created user stories below to try to make it more clear what features I implem
 
 
 ### The engine
-The engine was developed with TDD and with an intent that it should be able to be used in another project, as the spec said.
+The engine was developed with TDD and an intent that it should be able to be used in another project, as the spec said.
 
 The engine leighs in its own GitHub repo and is published on NPM. In this project I installed it with:
 
@@ -64,10 +65,9 @@ They are not installed as devDependencies due to the following eslint errors:
 ```
 
 ### IE 11 in dev mode
-
 It works in production.
 
 But during dev it does not without adding `slashes: true` in `\node_modules\react-dev-utils\webpackHotDevClient.js`:
 
-https://github.com/facebook/create-react-app/pull/8116
+For more information please read this, https://github.com/facebook/create-react-app/pull/8116.
 
