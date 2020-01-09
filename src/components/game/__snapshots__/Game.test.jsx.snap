@@ -12,35 +12,19 @@ exports[`Snapshot test renders correctly 1`] = `
         className="board-row"
       >
         <button
+          aria-label="make game move"
           className="square"
           onClick={[Function]}
           type="submit"
         />
         <button
+          aria-label="make game move"
           className="square"
           onClick={[Function]}
           type="submit"
         />
         <button
-          className="square"
-          onClick={[Function]}
-          type="submit"
-        />
-      </div>
-      <div
-        className="board-row"
-      >
-        <button
-          className="square"
-          onClick={[Function]}
-          type="submit"
-        />
-        <button
-          className="square"
-          onClick={[Function]}
-          type="submit"
-        />
-        <button
+          aria-label="make game move"
           className="square"
           onClick={[Function]}
           type="submit"
@@ -50,16 +34,41 @@ exports[`Snapshot test renders correctly 1`] = `
         className="board-row"
       >
         <button
+          aria-label="make game move"
           className="square"
           onClick={[Function]}
           type="submit"
         />
         <button
+          aria-label="make game move"
           className="square"
           onClick={[Function]}
           type="submit"
         />
         <button
+          aria-label="make game move"
+          className="square"
+          onClick={[Function]}
+          type="submit"
+        />
+      </div>
+      <div
+        className="board-row"
+      >
+        <button
+          aria-label="make game move"
+          className="square"
+          onClick={[Function]}
+          type="submit"
+        />
+        <button
+          aria-label="make game move"
+          className="square"
+          onClick={[Function]}
+          type="submit"
+        />
+        <button
+          aria-label="make game move"
           className="square"
           onClick={[Function]}
           type="submit"

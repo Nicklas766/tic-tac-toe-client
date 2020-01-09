@@ -1,8 +1,14 @@
 .game {
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    width: 90%;
     margin: auto;
+}
+
+@media (min-width: 650px) {
+    .game {
+        width: 50%;
+    }
 }
 
 .game-board, .game-info {
