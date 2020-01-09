@@ -1,34 +1,34 @@
 .game {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
 }
 
 @media (min-width: 650px) {
-    .game {
-        width: 50%;
-    }
+  .game {
+    width: 50%;
+  }
 }
 
 .game-board, .game-info {
-    width: 100%;
+  width: 100%;
 }
 
 .game-info div {
-    text-align: center;
-    font-size: 2em;
+  text-align: center;
+  font-size: 2em;
 }
 
 .board-row {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
   
 .square {
-    width: 33.33%;
-    height: 100px;
-    background: white;
-    font-size: 2em;
+  width: 33.33%;
+  height: 100px;
+  background: white;
+  font-size: 2em;
 }
