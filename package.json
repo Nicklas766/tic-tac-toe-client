@@ -21,7 +21,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --ext .js --ext .jsx src",
-    "lintFix": "eslint src/*.jsx --fix && eslint src/components/*.jsx --fix"
+    "lintFix": "eslint src/*.jsx --fix && eslint src/components/*.jsx --fix",
+    "travisTest": "eslint --ext .js --ext .jsx src && react-scripts test --watchAll=false"
   },
   "eslintConfig": {
     "extends": "react-app"
